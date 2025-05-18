@@ -10,7 +10,8 @@ def run_game(screen, font):
     # --- Setup the game ---
     room_files = {
         "room1": "assets/rooms/room1.txt",
-        "room2": "assets/rooms/room2.txt"
+        "room2": "assets/rooms/room2.txt",
+        "room3": "assets/rooms/room3.txt"
     }
     room_manager = RoomManager(room_files)
     camera = Camera(room_manager.current.width, room_manager.current.height)
