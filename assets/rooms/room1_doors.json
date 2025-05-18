@@ -1,0 +1,16 @@
+{
+  "doors": [
+    {
+      "id": "right_exit",
+      "pos": [23, 17],
+      "leads_to": "room2",
+      "leads_to_door": "left_entrance"
+    },
+    {
+      "id": "upper_right_exit",
+      "pos": [23, 5],
+      "leads_to": "room3",
+      "leads_to_door": "left_entrance"
+    }
+  ]
+}

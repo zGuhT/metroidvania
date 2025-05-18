@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+
+# Build artifacts (add if you use tools like PyInstaller)
+dist/
+build/
+*.spec
+
+# (Optional) Ignore secret configs, tokens, etc.
+# .env
+
+# Don't ignore your assets/rooms/*.json or *.txt!
