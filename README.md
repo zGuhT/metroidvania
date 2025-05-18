@@ -47,6 +47,7 @@ python3 main.py
 
 ## Directory Structure
 
+```go
 assets/
 ├── rooms/
 │   ├── room1.txt
@@ -72,6 +73,7 @@ README.md
 requirements.txt
 test_pygame.py
 update_changelog.py
+```
 
 ---
 
