@@ -21,8 +21,8 @@ def append_to_changelog(message):
     with open(README_PATH, "r") as file:
         content = file.read()
 
-    # Insert new entry after "## Change Log"
-    pattern = r"(## Change Log\n\n)"
+    # Insert new entry after "## Version History"
+    pattern = r"(## Version History\n\n)"
     if new_entry in content:
         print("⚠️ Changelog entry already exists.")
         return

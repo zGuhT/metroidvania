@@ -128,6 +128,9 @@ update_changelog.py
 
 ## Version History
 
+### v0.12 (2025-05-18)
+- v0.12 fixed up changelog script
+
 v0.01 (2025-05-18)
 * Initial project setup
 * ASCII room loading and door system (via JSON for unlimited doors)
